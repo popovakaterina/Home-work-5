@@ -4,9 +4,11 @@ Console.Write("Введите размер массива: ");
 int A = Convert.ToInt32(Console.ReadLine());
 int[] Array = new int[A];
 Random rand = new Random();
+Console.Write("Введите максимальное число массива массива: "); // Задаем до какго числа будут генерироваться случайные числа в массиве
+int B = Convert.ToInt32(Console.ReadLine());
 for (int i = 0; i < Array.Length; i++) // Заполнение массива случайными числами 
 {
-    Array[i] = rand.Next(20); 
+    Array[i] = rand.Next(B); 
     Console.WriteLine(Array[i]); // Выводим массив на экран для проверки
 }
 int summa = 0;
