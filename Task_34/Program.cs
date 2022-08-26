@@ -6,7 +6,7 @@ int[] Array = new int[A];
 Random rand = new Random();
 for (int i = 0; i < Array.Length; i++) // Заполнение массива случайными числами 
 {
-    Array[i] = rand.Next(100,999); // Максимальное значение случайного числа 20 - в дз условия нет ,поставила рандомное значение
+    Array[i] = rand.Next(100,999); 
     Console.WriteLine(Array[i]); // Выводим массив на экран для проверки
 }
 int count = 0;
