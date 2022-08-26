@@ -17,5 +17,5 @@ for (int i = 0; i < Array.Length; i++)
         count ++;
     }
 }
-Console.Write("Количество четных эл-ов массива: ");
+Console.Write("Количество четных чисел массива: ");
 Console.Write(count);
